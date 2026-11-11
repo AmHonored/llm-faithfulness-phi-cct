@@ -1,0 +1,11 @@
+source_id,split,premise,hypothesis,gold_label
+2472980433.jpg#4r1n,validation,a man doing tricks on a motorcycle,Evil Kneavel shows off for the crowd.,neutral
+2774287870.jpg#3r1n,validation,Two girls are in line about to order at a Mexican eatery.,Two sad girls are in line about to order at a Mexican eatery.,neutral
+8091740382.jpg#2r1n,validation,A man standing a busy European town square with a tall placard sign printed with biblical phrases.,A local religious curate tries to convince passers by to come to his church.,neutral
+3533922605.jpg#0r1e,validation,Two girls with long brown hair sit on the floor with a view from the window behind them showing a town.,Two girls with long brown hair sit on the floor,entailment
+3106022785.jpg#0r1n,validation,"A woman dressed as Dorthy from the Wizard of Oz smiling at a baby, standing above her on a table, dressed as an elephant.",It is Halloween in the photo.,neutral
+2222976136.jpg#0r1e,validation,A man wearing a blue hat and a blue shirt selling bananas from his wheel cart on the street.,A vendor selling bananas.,entailment
+6286405785.jpg#0r1n,validation,"A football player in a blue 'Rams' jersey runs with a football on a field, as another player in a white jersey falls in an attempt to tackle him.",The football players are having fun,neutral
+6704385305.jpg#0r1c,validation,An athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.,Olympic hopefuls perform their swim routines.,contradiction
+4939912673.jpg#0r1c,validation,"An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is playing with fire.",Two dogs play around with a yellow tennis ball.,contradiction
+4825488431.jpg#2r1e,validation,Group of people stand near a fence watching a plane fly over them,Group of people standing outside,entailment

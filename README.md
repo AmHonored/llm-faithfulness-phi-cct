@@ -11,7 +11,13 @@ Our main question is whether the score differs when we insert a common word or a
 3. Try the notebook on 10 separate validation examples in Kaggle first. Use that trial to check memory, estimate runtime, and test that the notebook can resume.
 4. Run `Qwen/Qwen3-8B` on the full sample in a standalone Python/PyTorch notebook. It writes the explanation first and then gives the label. The run uses greedy decoding, thinking mode off, and no quantization.
 
-## What we’ll compare
+## Run the data preparation
+
+Import `esnli_phi_cct.ipynb` into Kaggle, enable internet, leave the accelerator off, and run the data preparation cells. The notebook downloads the pinned e-SNLI revision, verifies that the test and smoke samples match the original run, and saves the outputs in `data/prepared/`. In `data/prepared/edit_audit.csv`, the 20 rows marked `planned_sample` are the edits selected for review before running the model.
+
+The revised rules proposed both edits for 640 of the 1,000 examples. The audit records the 20 planned reviews and a follow-up check for incomplete sentences after deletion. It flags 15 proposals to exclude before inference, leaving 632 examples with two eligible edits, 287 with one, and 81 with zero. The audit identifies which decisions were drafted with AI assistance.
+
+## What we'll compare
 
 | Check | What we’ll look at |
 |---|---|

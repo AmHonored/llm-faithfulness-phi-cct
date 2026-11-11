@@ -1,0 +1,53 @@
+{
+  "dataset_source": "https://github.com/OanaMariaCamburu/e-SNLI",
+  "dataset_revision": "7b585a3f077fdea899780eb0473940522ae44a2e",
+  "seed": 42,
+  "test_split": "test",
+  "smoke_split": "validation",
+  "test_size": 1000,
+  "smoke_size": 10,
+  "training_documents": 549367,
+  "label_counts": {
+    "contradiction": 343,
+    "neutral": 294,
+    "entailment": 363
+  },
+  "label_proportions": {
+    "entailment": 0.363,
+    "neutral": 0.294,
+    "contradiction": 0.343
+  },
+  "proposal_counts": {
+    "insertion_proposed": 805,
+    "deletion_proposed": 761,
+    "deletion_rejected": 239,
+    "insertion_rejected": 195
+  },
+  "idf_thresholds": {
+    "insertion": [
+      6.946210919509386,
+      9.88579046530208
+    ],
+    "deletion": [
+      3.64918915820389,
+      5.241652634617075
+    ]
+  },
+  "examples_by_proposal_count": {
+    "0": 74,
+    "1": 286,
+    "2": 640
+  },
+  "versions": {
+    "python": "3.13.18",
+    "spacy": "3.8.7",
+    "en-core-web-sm": "3.8.0",
+    "vaderSentiment": "3.3.2"
+  },
+  "file_sha256": {
+    "frozen_examples.csv": "02ec2eccb7a93f5dd8682b7c2bfbd339b8aefbea79d7bd45ff736ced4195b2d2",
+    "edit_proposals.csv": "b4e026a485d729265c03f22195b9c931b3ac2a745217b345570689cc7ebc6969",
+    "smoke_examples.csv": "0fac2eeeed098d7bec38f52346da45f0ff77d5f2ec1277aa224f7d648cef410e",
+    "smoke_edits.csv": "f6a1eb8102aae7bcb61a312d59c107b671af2d3c918dd5f04ac8bf3992afcd68"
+  }
+}
