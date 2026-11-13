@@ -1,0 +1,933 @@
+job_id,source_id,layout,family,edit_id,original_gold_label,option_a,option_b,option_c,premise,hypothesis,prompt,raw_response,generated_tokens,finish_reason,batch_index,batch_seconds,status,explanation,label_letter,predicted_label
+2472980433.jpg#4r1n|1|baseline,2472980433.jpg#4r1n,1,baseline,,neutral,entailment,neutral,contradiction,a man doing tricks on a motorcycle,Evil Kneavel shows off for the crowd.,"Premise: a man doing tricks on a motorcycle
+Hypothesis: Evil Kneavel shows off for the crowd.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a man doing tricks on a motorcycle, but it does not provide any information about the identity of the man or his intentions, such as showing off for a crowd. Therefore, the hypothesis introduces new information not supported by the premise.
+
+Label: B",54,eos,0,7.943795130000012,ok,"The premise describes a man doing tricks on a motorcycle, but it does not provide any information about the identity of the man or his intentions, such as showing off for a crowd. Therefore, the hypothesis introduces new information not supported by the premise.",B,neutral
+2472980433.jpg#4r1n|1|insertion,2472980433.jpg#4r1n,1,insertion,2472980433.jpg#4r1n:insertion,neutral,entailment,neutral,contradiction,a young man doing tricks on a motorcycle,Evil Kneavel shows off for the crowd.,"Premise: a young man doing tricks on a motorcycle
+Hypothesis: Evil Kneavel shows off for the crowd.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a young man doing tricks on a motorcycle, but it does not provide any information about Evil Kneavel or a crowd. Therefore, the premise neither supports nor contradicts the hypothesis.
+
+Label: B",45,eos,0,7.943795130000012,ok,"The premise describes a young man doing tricks on a motorcycle, but it does not provide any information about Evil Kneavel or a crowd. Therefore, the premise neither supports nor contradicts the hypothesis.",B,neutral
+2472980433.jpg#4r1n|2|baseline,2472980433.jpg#4r1n,2,baseline,,neutral,neutral,contradiction,entailment,a man doing tricks on a motorcycle,Evil Kneavel shows off for the crowd.,"Premise: a man doing tricks on a motorcycle
+Hypothesis: Evil Kneavel shows off for the crowd.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a man doing tricks on a motorcycle, but it does not provide any information about the identity of the man or his intentions, such as showing off for a crowd. Therefore, the hypothesis introduces new information not supported by the premise.
+
+Label: A",54,eos,0,7.943795130000012,ok,"The premise describes a man doing tricks on a motorcycle, but it does not provide any information about the identity of the man or his intentions, such as showing off for a crowd. Therefore, the hypothesis introduces new information not supported by the premise.",A,neutral
+2472980433.jpg#4r1n|2|insertion,2472980433.jpg#4r1n,2,insertion,2472980433.jpg#4r1n:insertion,neutral,neutral,contradiction,entailment,a young man doing tricks on a motorcycle,Evil Kneavel shows off for the crowd.,"Premise: a young man doing tricks on a motorcycle
+Hypothesis: Evil Kneavel shows off for the crowd.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a young man doing tricks on a motorcycle, but it does not provide any information about Evil Kneavel or his actions toward a crowd. Therefore, the premise neither supports nor contradicts the hypothesis.
+
+Label: A",48,eos,0,7.943795130000012,ok,"The premise describes a young man doing tricks on a motorcycle, but it does not provide any information about Evil Kneavel or his actions toward a crowd. Therefore, the premise neither supports nor contradicts the hypothesis.",A,neutral
+2472980433.jpg#4r1n|3|baseline,2472980433.jpg#4r1n,3,baseline,,neutral,contradiction,entailment,neutral,a man doing tricks on a motorcycle,Evil Kneavel shows off for the crowd.,"Premise: a man doing tricks on a motorcycle
+Hypothesis: Evil Kneavel shows off for the crowd.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a man doing tricks on a motorcycle, but it does not provide any information about the identity of the man or his intentions, such as showing off for a crowd. Therefore, the hypothesis introduces new information not supported by the premise.
+
+Label: C",54,eos,0,7.943795130000012,ok,"The premise describes a man doing tricks on a motorcycle, but it does not provide any information about the identity of the man or his intentions, such as showing off for a crowd. Therefore, the hypothesis introduces new information not supported by the premise.",C,neutral
+2472980433.jpg#4r1n|3|insertion,2472980433.jpg#4r1n,3,insertion,2472980433.jpg#4r1n:insertion,neutral,contradiction,entailment,neutral,a young man doing tricks on a motorcycle,Evil Kneavel shows off for the crowd.,"Premise: a young man doing tricks on a motorcycle
+Hypothesis: Evil Kneavel shows off for the crowd.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a young man doing tricks on a motorcycle, but it does not provide any information about Evil Kneavel or his actions. Therefore, the hypothesis is not supported or contradicted by the premise.
+
+Label: C",47,eos,0,7.943795130000012,ok,"The premise describes a young man doing tricks on a motorcycle, but it does not provide any information about Evil Kneavel or his actions. Therefore, the hypothesis is not supported or contradicted by the premise.",C,neutral
+2774287870.jpg#3r1n|1|baseline,2774287870.jpg#3r1n,1,baseline,,neutral,entailment,neutral,contradiction,Two girls are in line about to order at a Mexican eatery.,Two sad girls are in line about to order at a Mexican eatery.,"Premise: Two girls are in line about to order at a Mexican eatery.
+Hypothesis: Two sad girls are in line about to order at a Mexican eatery.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise only states that two girls are in line about to order at a Mexican eatery. It provides no information about their emotional state, so it does not confirm or deny that they are sad.  
+Label: B",46,eos,0,7.943795130000012,ok,"The premise only states that two girls are in line about to order at a Mexican eatery. It provides no information about their emotional state, so it does not confirm or deny that they are sad.",B,neutral
+2774287870.jpg#3r1n|1|deletion,2774287870.jpg#3r1n,1,deletion,2774287870.jpg#3r1n:deletion,neutral,entailment,neutral,contradiction,Two girls are in line about to order at a Mexican eatery.,Two girls are in line about to order at a Mexican eatery.,"Premise: Two girls are in line about to order at a Mexican eatery.
+Hypothesis: Two girls are in line about to order at a Mexican eatery.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise and the hypothesis are identical, so the premise directly supports the hypothesis, making it true.
+
+Label: A",25,eos,0,7.943795130000012,ok,"The premise and the hypothesis are identical, so the premise directly supports the hypothesis, making it true.",A,entailment
+2774287870.jpg#3r1n|2|baseline,2774287870.jpg#3r1n,2,baseline,,neutral,neutral,contradiction,entailment,Two girls are in line about to order at a Mexican eatery.,Two sad girls are in line about to order at a Mexican eatery.,"Premise: Two girls are in line about to order at a Mexican eatery.
+Hypothesis: Two sad girls are in line about to order at a Mexican eatery.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise does not provide any information about the emotional state of the girls, so it cannot confirm or deny that they are sad. Therefore, the hypothesis is not necessarily true or false based on the premise.
+
+Label: A",46,eos,1,6.831875687999968,ok,"The premise does not provide any information about the emotional state of the girls, so it cannot confirm or deny that they are sad. Therefore, the hypothesis is not necessarily true or false based on the premise.",A,neutral
+2774287870.jpg#3r1n|2|deletion,2774287870.jpg#3r1n,2,deletion,2774287870.jpg#3r1n:deletion,neutral,neutral,contradiction,entailment,Two girls are in line about to order at a Mexican eatery.,Two girls are in line about to order at a Mexican eatery.,"Premise: Two girls are in line about to order at a Mexican eatery.
+Hypothesis: Two girls are in line about to order at a Mexican eatery.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise and the hypothesis are identical, so the premise directly supports the hypothesis.  
+Label: C",22,eos,1,6.831875687999968,ok,"The premise and the hypothesis are identical, so the premise directly supports the hypothesis.",C,entailment
+2774287870.jpg#3r1n|3|baseline,2774287870.jpg#3r1n,3,baseline,,neutral,contradiction,entailment,neutral,Two girls are in line about to order at a Mexican eatery.,Two sad girls are in line about to order at a Mexican eatery.,"Premise: Two girls are in line about to order at a Mexican eatery.
+Hypothesis: Two sad girls are in line about to order at a Mexican eatery.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise only states that two girls are in line about to order at a Mexican eatery. It provides no information about their emotional state, so we cannot determine if they are sad. Therefore, the hypothesis introduces new information not supported by the premise.
+
+Label: C",55,eos,1,6.831875687999968,ok,"The premise only states that two girls are in line about to order at a Mexican eatery. It provides no information about their emotional state, so we cannot determine if they are sad. Therefore, the hypothesis introduces new information not supported by the premise.",C,neutral
+2774287870.jpg#3r1n|3|deletion,2774287870.jpg#3r1n,3,deletion,2774287870.jpg#3r1n:deletion,neutral,contradiction,entailment,neutral,Two girls are in line about to order at a Mexican eatery.,Two girls are in line about to order at a Mexican eatery.,"Premise: Two girls are in line about to order at a Mexican eatery.
+Hypothesis: Two girls are in line about to order at a Mexican eatery.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise and the hypothesis are identical, so the premise directly supports the hypothesis.  
+Label: B",22,eos,1,6.831875687999968,ok,"The premise and the hypothesis are identical, so the premise directly supports the hypothesis.",B,entailment
+8091740382.jpg#2r1n|1|baseline,8091740382.jpg#2r1n,1,baseline,,neutral,entailment,neutral,contradiction,A man standing a busy European town square with a tall placard sign printed with biblical phrases.,A local religious curate tries to convince passers by to come to his church.,"Premise: A man standing a busy European town square with a tall placard sign printed with biblical phrases.
+Hypothesis: A local religious curate tries to convince passers by to come to his church.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a man in a European town square with a placard containing biblical phrases, but it does not explicitly state his role (e.g., religious curate) or his intent (e.g., convincing people to attend church). Therefore, the hypothesis introduces additional details not confirmed by the premise.
+
+Label: B",65,eos,1,6.831875687999968,ok,"The premise describes a man in a European town square with a placard containing biblical phrases, but it does not explicitly state his role (e.g., religious curate) or his intent (e.g., convincing people to attend church). Therefore, the hypothesis introduces additional details not confirmed by the premise.",B,neutral
+8091740382.jpg#2r1n|1|insertion,8091740382.jpg#2r1n,1,insertion,8091740382.jpg#2r1n:insertion,neutral,entailment,neutral,contradiction,A cheerful man standing a busy European town square with a tall placard sign printed with biblical phrases.,A local religious curate tries to convince passers by to come to his church.,"Premise: A cheerful man standing a busy European town square with a tall placard sign printed with biblical phrases.
+Hypothesis: A local religious curate tries to convince passers by to come to his church.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a cheerful man in a European town square with a placard containing biblical phrases, but it does not explicitly state his role or intent, such as trying to convince people to attend his church. Therefore, the hypothesis is not definitively supported or contradicted by the premise.
+
+Label: B",62,eos,1,6.831875687999968,ok,"The premise describes a cheerful man in a European town square with a placard containing biblical phrases, but it does not explicitly state his role or intent, such as trying to convince people to attend his church. Therefore, the hypothesis is not definitively supported or contradicted by the premise.",B,neutral
+8091740382.jpg#2r1n|1|deletion,8091740382.jpg#2r1n,1,deletion,8091740382.jpg#2r1n:deletion,neutral,entailment,neutral,contradiction,A man standing a busy European town square with a tall placard sign printed with biblical phrases.,A local curate tries to convince passers by to come to his church.,"Premise: A man standing a busy European town square with a tall placard sign printed with biblical phrases.
+Hypothesis: A local curate tries to convince passers by to come to his church.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a man in a European town square with a placard containing biblical phrases, but it does not explicitly state his role (e.g., local curate) or his intent (e.g., convincing people to attend church). Therefore, the hypothesis introduces additional information not confirmed by the premise.
+
+Label: B",65,eos,1,6.831875687999968,ok,"The premise describes a man in a European town square with a placard containing biblical phrases, but it does not explicitly state his role (e.g., local curate) or his intent (e.g., convincing people to attend church). Therefore, the hypothesis introduces additional information not confirmed by the premise.",B,neutral
+8091740382.jpg#2r1n|2|baseline,8091740382.jpg#2r1n,2,baseline,,neutral,neutral,contradiction,entailment,A man standing a busy European town square with a tall placard sign printed with biblical phrases.,A local religious curate tries to convince passers by to come to his church.,"Premise: A man standing a busy European town square with a tall placard sign printed with biblical phrases.
+Hypothesis: A local religious curate tries to convince passers by to come to his church.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a man in a European town square with a placard containing biblical phrases, but it does not explicitly state his role (e.g., religious curate) or his intent (e.g., convincing people to attend church). Therefore, the hypothesis is not definitively supported or contradicted by the premise.
+
+Label: A",68,eos,1,6.831875687999968,ok,"The premise describes a man in a European town square with a placard containing biblical phrases, but it does not explicitly state his role (e.g., religious curate) or his intent (e.g., convincing people to attend church). Therefore, the hypothesis is not definitively supported or contradicted by the premise.",A,neutral
+8091740382.jpg#2r1n|2|insertion,8091740382.jpg#2r1n,2,insertion,8091740382.jpg#2r1n:insertion,neutral,neutral,contradiction,entailment,A cheerful man standing a busy European town square with a tall placard sign printed with biblical phrases.,A local religious curate tries to convince passers by to come to his church.,"Premise: A cheerful man standing a busy European town square with a tall placard sign printed with biblical phrases.
+Hypothesis: A local religious curate tries to convince passers by to come to his church.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a cheerful man in a European town square with a placard containing biblical phrases, but it does not explicitly state his role or intent, such as trying to convince people to attend his church. Therefore, the hypothesis is not definitively supported or contradicted by the premise.
+
+Label: A",62,eos,2,6.857237227999917,ok,"The premise describes a cheerful man in a European town square with a placard containing biblical phrases, but it does not explicitly state his role or intent, such as trying to convince people to attend his church. Therefore, the hypothesis is not definitively supported or contradicted by the premise.",A,neutral
+8091740382.jpg#2r1n|2|deletion,8091740382.jpg#2r1n,2,deletion,8091740382.jpg#2r1n:deletion,neutral,neutral,contradiction,entailment,A man standing a busy European town square with a tall placard sign printed with biblical phrases.,A local curate tries to convince passers by to come to his church.,"Premise: A man standing a busy European town square with a tall placard sign printed with biblical phrases.
+Hypothesis: A local curate tries to convince passers by to come to his church.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a man in a European town square with a placard containing biblical phrases, but it does not explicitly state his role (e.g., local curate) or his intent (e.g., convincing people to attend church). Therefore, the hypothesis is not definitively supported or contradicted by the premise.
+
+Label: A",68,eos,2,6.857237227999917,ok,"The premise describes a man in a European town square with a placard containing biblical phrases, but it does not explicitly state his role (e.g., local curate) or his intent (e.g., convincing people to attend church). Therefore, the hypothesis is not definitively supported or contradicted by the premise.",A,neutral
+8091740382.jpg#2r1n|3|baseline,8091740382.jpg#2r1n,3,baseline,,neutral,contradiction,entailment,neutral,A man standing a busy European town square with a tall placard sign printed with biblical phrases.,A local religious curate tries to convince passers by to come to his church.,"Premise: A man standing a busy European town square with a tall placard sign printed with biblical phrases.
+Hypothesis: A local religious curate tries to convince passers by to come to his church.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a man in a European town square with a placard containing biblical phrases, but it does not explicitly state his role (e.g., religious curate) or his intent (e.g., convincing people to attend church). Therefore, the hypothesis introduces additional details not confirmed by the premise.
+
+Label: C",65,eos,2,6.857237227999917,ok,"The premise describes a man in a European town square with a placard containing biblical phrases, but it does not explicitly state his role (e.g., religious curate) or his intent (e.g., convincing people to attend church). Therefore, the hypothesis introduces additional details not confirmed by the premise.",C,neutral
+8091740382.jpg#2r1n|3|insertion,8091740382.jpg#2r1n,3,insertion,8091740382.jpg#2r1n:insertion,neutral,contradiction,entailment,neutral,A cheerful man standing a busy European town square with a tall placard sign printed with biblical phrases.,A local religious curate tries to convince passers by to come to his church.,"Premise: A cheerful man standing a busy European town square with a tall placard sign printed with biblical phrases.
+Hypothesis: A local religious curate tries to convince passers by to come to his church.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a cheerful man in a European town square with a placard containing biblical phrases, but it does not explicitly state his role or intent, such as trying to convince people to attend his church. Therefore, the hypothesis is not definitively supported or contradicted by the premise.
+
+Label: C",62,eos,2,6.857237227999917,ok,"The premise describes a cheerful man in a European town square with a placard containing biblical phrases, but it does not explicitly state his role or intent, such as trying to convince people to attend his church. Therefore, the hypothesis is not definitively supported or contradicted by the premise.",C,neutral
+8091740382.jpg#2r1n|3|deletion,8091740382.jpg#2r1n,3,deletion,8091740382.jpg#2r1n:deletion,neutral,contradiction,entailment,neutral,A man standing a busy European town square with a tall placard sign printed with biblical phrases.,A local curate tries to convince passers by to come to his church.,"Premise: A man standing a busy European town square with a tall placard sign printed with biblical phrases.
+Hypothesis: A local curate tries to convince passers by to come to his church.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a man in a European town square with a placard containing biblical phrases, but it does not explicitly state his occupation or his intent to convince people to attend his church. Therefore, the hypothesis is not definitively supported or contradicted by the premise.
+
+Label: C",58,eos,2,6.857237227999917,ok,"The premise describes a man in a European town square with a placard containing biblical phrases, but it does not explicitly state his occupation or his intent to convince people to attend his church. Therefore, the hypothesis is not definitively supported or contradicted by the premise.",C,neutral
+3533922605.jpg#0r1e|1|baseline,3533922605.jpg#0r1e,1,baseline,,entailment,entailment,neutral,contradiction,Two girls with long brown hair sit on the floor with a view from the window behind them showing a town.,Two girls with long brown hair sit on the floor,"Premise: Two girls with long brown hair sit on the floor with a view from the window behind them showing a town.
+Hypothesis: Two girls with long brown hair sit on the floor
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise includes all the information in the hypothesis, specifically that two girls with long brown hair sit on the floor. The additional detail about the view from the window does not contradict or add any information that would make the hypothesis false.
+
+Label: A",51,eos,2,6.857237227999917,ok,"The premise includes all the information in the hypothesis, specifically that two girls with long brown hair sit on the floor. The additional detail about the view from the window does not contradict or add any information that would make the hypothesis false.",A,entailment
+3533922605.jpg#0r1e|1|insertion,3533922605.jpg#0r1e,1,insertion,3533922605.jpg#0r1e:insertion,entailment,entailment,neutral,contradiction,Two girls with long brown hair casually sit on the floor with a view from the window behind them showing a town.,Two girls with long brown hair sit on the floor,"Premise: Two girls with long brown hair casually sit on the floor with a view from the window behind them showing a town.
+Hypothesis: Two girls with long brown hair sit on the floor
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise states that two girls with long brown hair casually sit on the floor with a view from the window behind them showing a town. The hypothesis is a simplified version of this, omitting the detail about the view from the window. Since the hypothesis is fully supported by the premise, it is entailed.
+
+Label: A",67,eos,2,6.857237227999917,ok,"The premise states that two girls with long brown hair casually sit on the floor with a view from the window behind them showing a town. The hypothesis is a simplified version of this, omitting the detail about the view from the window. Since the hypothesis is fully supported by the premise, it is entailed.",A,entailment
+3533922605.jpg#0r1e|1|deletion,3533922605.jpg#0r1e,1,deletion,3533922605.jpg#0r1e:deletion,entailment,entailment,neutral,contradiction,Two girls with long brown hair sit on the floor with a view from the window behind them showing a town.,Two girls with long hair sit on the floor,"Premise: Two girls with long brown hair sit on the floor with a view from the window behind them showing a town.
+Hypothesis: Two girls with long hair sit on the floor
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise states that two girls with long brown hair sit on the floor, which directly supports the hypothesis that two girls with long hair sit on the floor. The additional detail about their hair color in the premise does not contradict the hypothesis, so the hypothesis is entailed by the premise.
+
+Label: A",62,eos,2,6.857237227999917,ok,"The premise states that two girls with long brown hair sit on the floor, which directly supports the hypothesis that two girls with long hair sit on the floor. The additional detail about their hair color in the premise does not contradict the hypothesis, so the hypothesis is entailed by the premise.",A,entailment
+3533922605.jpg#0r1e|2|baseline,3533922605.jpg#0r1e,2,baseline,,entailment,neutral,contradiction,entailment,Two girls with long brown hair sit on the floor with a view from the window behind them showing a town.,Two girls with long brown hair sit on the floor,"Premise: Two girls with long brown hair sit on the floor with a view from the window behind them showing a town.
+Hypothesis: Two girls with long brown hair sit on the floor
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise includes the information that ""two girls with long brown hair sit on the floor,"" which directly matches the hypothesis. The additional detail about the view from the window does not contradict or add information that would make the hypothesis false. Therefore, the premise supports the hypothesis.
+
+Label: C",59,eos,3,7.959515732999989,ok,"The premise includes the information that ""two girls with long brown hair sit on the floor,"" which directly matches the hypothesis. The additional detail about the view from the window does not contradict or add information that would make the hypothesis false. Therefore, the premise supports the hypothesis.",C,entailment
+3533922605.jpg#0r1e|2|insertion,3533922605.jpg#0r1e,2,insertion,3533922605.jpg#0r1e:insertion,entailment,neutral,contradiction,entailment,Two girls with long brown hair casually sit on the floor with a view from the window behind them showing a town.,Two girls with long brown hair sit on the floor,"Premise: Two girls with long brown hair casually sit on the floor with a view from the window behind them showing a town.
+Hypothesis: Two girls with long brown hair sit on the floor
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise states that two girls with long brown hair casually sit on the floor with a view from the window behind them showing a town. The hypothesis is a more general statement that only mentions the girls sitting on the floor, without the additional details about the view from the window. The premise supports the hypothesis, as it includes all the information in the hypothesis and adds more context.
+
+Label: C",80,eos,3,7.959515732999989,ok,"The premise states that two girls with long brown hair casually sit on the floor with a view from the window behind them showing a town. The hypothesis is a more general statement that only mentions the girls sitting on the floor, without the additional details about the view from the window. The premise supports the hypothesis, as it includes all the information in the hypothesis and adds more context.",C,entailment
+3533922605.jpg#0r1e|2|deletion,3533922605.jpg#0r1e,2,deletion,3533922605.jpg#0r1e:deletion,entailment,neutral,contradiction,entailment,Two girls with long brown hair sit on the floor with a view from the window behind them showing a town.,Two girls with long hair sit on the floor,"Premise: Two girls with long brown hair sit on the floor with a view from the window behind them showing a town.
+Hypothesis: Two girls with long hair sit on the floor
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise specifies that the two girls have ""long brown hair,"" while the hypothesis only mentions ""long hair."" Since ""long brown hair"" includes ""long hair,"" the hypothesis is supported by the premise but not fully specified. Therefore, the premise makes the hypothesis true.
+
+Label: C",59,eos,3,7.959515732999989,ok,"The premise specifies that the two girls have ""long brown hair,"" while the hypothesis only mentions ""long hair."" Since ""long brown hair"" includes ""long hair,"" the hypothesis is supported by the premise but not fully specified. Therefore, the premise makes the hypothesis true.",C,entailment
+3533922605.jpg#0r1e|3|baseline,3533922605.jpg#0r1e,3,baseline,,entailment,contradiction,entailment,neutral,Two girls with long brown hair sit on the floor with a view from the window behind them showing a town.,Two girls with long brown hair sit on the floor,"Premise: Two girls with long brown hair sit on the floor with a view from the window behind them showing a town.
+Hypothesis: Two girls with long brown hair sit on the floor
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise includes the information that ""two girls with long brown hair sit on the floor,"" which directly matches the hypothesis. The additional detail about the view from the window does not contradict or change the truth of the hypothesis.
+
+Label: B",49,eos,3,7.959515732999989,ok,"The premise includes the information that ""two girls with long brown hair sit on the floor,"" which directly matches the hypothesis. The additional detail about the view from the window does not contradict or change the truth of the hypothesis.",B,entailment
+3533922605.jpg#0r1e|3|insertion,3533922605.jpg#0r1e,3,insertion,3533922605.jpg#0r1e:insertion,entailment,contradiction,entailment,neutral,Two girls with long brown hair casually sit on the floor with a view from the window behind them showing a town.,Two girls with long brown hair sit on the floor,"Premise: Two girls with long brown hair casually sit on the floor with a view from the window behind them showing a town.
+Hypothesis: Two girls with long brown hair sit on the floor
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise states that two girls with long brown hair casually sit on the floor with a view from the window behind them showing a town. The hypothesis is a simpler version of this statement, omitting the detail about the view from the window. Since the hypothesis is a subset of the information in the premise, it is supported by the premise.
+
+Label: B",73,eos,3,7.959515732999989,ok,"The premise states that two girls with long brown hair casually sit on the floor with a view from the window behind them showing a town. The hypothesis is a simpler version of this statement, omitting the detail about the view from the window. Since the hypothesis is a subset of the information in the premise, it is supported by the premise.",B,entailment
+3533922605.jpg#0r1e|3|deletion,3533922605.jpg#0r1e,3,deletion,3533922605.jpg#0r1e:deletion,entailment,contradiction,entailment,neutral,Two girls with long brown hair sit on the floor with a view from the window behind them showing a town.,Two girls with long hair sit on the floor,"Premise: Two girls with long brown hair sit on the floor with a view from the window behind them showing a town.
+Hypothesis: Two girls with long hair sit on the floor
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise states that two girls with long brown hair sit on the floor, which directly supports the hypothesis that two girls with long hair sit on the floor. The color of the hair (brown) is specified in the premise but does not contradict the general statement in the hypothesis.
+
+Label: B",60,eos,3,7.959515732999989,ok,"The premise states that two girls with long brown hair sit on the floor, which directly supports the hypothesis that two girls with long hair sit on the floor. The color of the hair (brown) is specified in the premise but does not contradict the general statement in the hypothesis.",B,entailment
+3106022785.jpg#0r1n|1|baseline,3106022785.jpg#0r1n,1,baseline,,neutral,entailment,neutral,contradiction,"A woman dressed as Dorthy from the Wizard of Oz smiling at a baby, standing above her on a table, dressed as an elephant.",It is Halloween in the photo.,"Premise: A woman dressed as Dorthy from the Wizard of Oz smiling at a baby, standing above her on a table, dressed as an elephant.
+Hypothesis: It is Halloween in the photo.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a scene with a woman dressed as Dorothy and a baby, but it does not provide any explicit information about the time of year or the occasion, such as Halloween. Therefore, the hypothesis cannot be confirmed or denied based on the given information.
+
+Label: B",56,eos,3,7.959515732999989,ok,"The premise describes a scene with a woman dressed as Dorothy and a baby, but it does not provide any explicit information about the time of year or the occasion, such as Halloween. Therefore, the hypothesis cannot be confirmed or denied based on the given information.",B,neutral
+3106022785.jpg#0r1n|1|insertion,3106022785.jpg#0r1n,1,insertion,3106022785.jpg#0r1n:insertion,neutral,entailment,neutral,contradiction,"A weary woman dressed as Dorthy from the Wizard of Oz smiling at a baby, standing above her on a table, dressed as an elephant.",It is Halloween in the photo.,"Premise: A weary woman dressed as Dorthy from the Wizard of Oz smiling at a baby, standing above her on a table, dressed as an elephant.
+Hypothesis: It is Halloween in the photo.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a scene with a woman dressed as Dorothy and a baby, but it does not provide any explicit information about the time of year or the occasion, such as Halloween. Therefore, the hypothesis cannot be confirmed or denied based on the given information.
+
+Label: B",56,eos,3,7.959515732999989,ok,"The premise describes a scene with a woman dressed as Dorothy and a baby, but it does not provide any explicit information about the time of year or the occasion, such as Halloween. Therefore, the hypothesis cannot be confirmed or denied based on the given information.",B,neutral
+3106022785.jpg#0r1n|2|baseline,3106022785.jpg#0r1n,2,baseline,,neutral,neutral,contradiction,entailment,"A woman dressed as Dorthy from the Wizard of Oz smiling at a baby, standing above her on a table, dressed as an elephant.",It is Halloween in the photo.,"Premise: A woman dressed as Dorthy from the Wizard of Oz smiling at a baby, standing above her on a table, dressed as an elephant.
+Hypothesis: It is Halloween in the photo.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a scene with a woman dressed as Dorothy and a baby, but it does not provide any explicit information about the time of year or the occasion, such as Halloween. Therefore, the hypothesis cannot be confirmed or denied based on the given information.
+
+Label: A",56,eos,4,5.787654717000009,ok,"The premise describes a scene with a woman dressed as Dorothy and a baby, but it does not provide any explicit information about the time of year or the occasion, such as Halloween. Therefore, the hypothesis cannot be confirmed or denied based on the given information.",A,neutral
+3106022785.jpg#0r1n|2|insertion,3106022785.jpg#0r1n,2,insertion,3106022785.jpg#0r1n:insertion,neutral,neutral,contradiction,entailment,"A weary woman dressed as Dorthy from the Wizard of Oz smiling at a baby, standing above her on a table, dressed as an elephant.",It is Halloween in the photo.,"Premise: A weary woman dressed as Dorthy from the Wizard of Oz smiling at a baby, standing above her on a table, dressed as an elephant.
+Hypothesis: It is Halloween in the photo.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a scene with a woman dressed as Dorothy and a baby, but it does not provide any explicit information about the time of year or the occasion, such as Halloween. Therefore, the hypothesis cannot be confirmed or denied based on the given information.
+
+Label: A",56,eos,4,5.787654717000009,ok,"The premise describes a scene with a woman dressed as Dorothy and a baby, but it does not provide any explicit information about the time of year or the occasion, such as Halloween. Therefore, the hypothesis cannot be confirmed or denied based on the given information.",A,neutral
+3106022785.jpg#0r1n|3|baseline,3106022785.jpg#0r1n,3,baseline,,neutral,contradiction,entailment,neutral,"A woman dressed as Dorthy from the Wizard of Oz smiling at a baby, standing above her on a table, dressed as an elephant.",It is Halloween in the photo.,"Premise: A woman dressed as Dorthy from the Wizard of Oz smiling at a baby, standing above her on a table, dressed as an elephant.
+Hypothesis: It is Halloween in the photo.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a scene with a woman dressed as Dorothy and a baby, but it does not provide any explicit information about the time of year or the occasion, such as Halloween. Therefore, the hypothesis cannot be confirmed or denied based on the given information.
+
+Label: C",56,eos,4,5.787654717000009,ok,"The premise describes a scene with a woman dressed as Dorothy and a baby, but it does not provide any explicit information about the time of year or the occasion, such as Halloween. Therefore, the hypothesis cannot be confirmed or denied based on the given information.",C,neutral
+3106022785.jpg#0r1n|3|insertion,3106022785.jpg#0r1n,3,insertion,3106022785.jpg#0r1n:insertion,neutral,contradiction,entailment,neutral,"A weary woman dressed as Dorthy from the Wizard of Oz smiling at a baby, standing above her on a table, dressed as an elephant.",It is Halloween in the photo.,"Premise: A weary woman dressed as Dorthy from the Wizard of Oz smiling at a baby, standing above her on a table, dressed as an elephant.
+Hypothesis: It is Halloween in the photo.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a scene with a woman dressed as Dorothy and a baby, but it does not provide any explicit information about the time of year or the occasion, such as Halloween. Therefore, the hypothesis cannot be confirmed or denied based on the given information.
+
+Label: C",56,eos,4,5.787654717000009,ok,"The premise describes a scene with a woman dressed as Dorothy and a baby, but it does not provide any explicit information about the time of year or the occasion, such as Halloween. Therefore, the hypothesis cannot be confirmed or denied based on the given information.",C,neutral
+2222976136.jpg#0r1e|1|baseline,2222976136.jpg#0r1e,1,baseline,,entailment,entailment,neutral,contradiction,A man wearing a blue hat and a blue shirt selling bananas from his wheel cart on the street.,A vendor selling bananas.,"Premise: A man wearing a blue hat and a blue shirt selling bananas from his wheel cart on the street.
+Hypothesis: A vendor selling bananas.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The details in the premise confirm the hypothesis without contradiction or ambiguity.
+
+Label: A",43,eos,4,5.787654717000009,ok,"The premise describes a man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The details in the premise confirm the hypothesis without contradiction or ambiguity.",A,entailment
+2222976136.jpg#0r1e|1|insertion,2222976136.jpg#0r1e,1,insertion,2222976136.jpg#0r1e:insertion,entailment,entailment,neutral,contradiction,A tall man wearing a blue hat and a blue shirt selling bananas from his wheel cart on the street.,A vendor selling bananas.,"Premise: A tall man wearing a blue hat and a blue shirt selling bananas from his wheel cart on the street.
+Hypothesis: A vendor selling bananas.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a tall man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The hypothesis is a general statement that is confirmed by the specific details in the premise.
+
+Label: A",48,eos,4,5.787654717000009,ok,"The premise describes a tall man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The hypothesis is a general statement that is confirmed by the specific details in the premise.",A,entailment
+2222976136.jpg#0r1e|1|deletion,2222976136.jpg#0r1e,1,deletion,2222976136.jpg#0r1e:deletion,entailment,entailment,neutral,contradiction,A man wearing a blue hat and a shirt selling bananas from his wheel cart on the street.,A vendor selling bananas.,"Premise: A man wearing a blue hat and a shirt selling bananas from his wheel cart on the street.
+Hypothesis: A vendor selling bananas.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The hypothesis is a general statement that is confirmed by the specific details in the premise.
+
+Label: A",47,eos,4,5.787654717000009,ok,"The premise describes a man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The hypothesis is a general statement that is confirmed by the specific details in the premise.",A,entailment
+2222976136.jpg#0r1e|2|baseline,2222976136.jpg#0r1e,2,baseline,,entailment,neutral,contradiction,entailment,A man wearing a blue hat and a blue shirt selling bananas from his wheel cart on the street.,A vendor selling bananas.,"Premise: A man wearing a blue hat and a blue shirt selling bananas from his wheel cart on the street.
+Hypothesis: A vendor selling bananas.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The hypothesis is a general statement that is confirmed by the specific details in the premise.
+
+Label: C",47,eos,4,5.787654717000009,ok,"The premise describes a man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The hypothesis is a general statement that is confirmed by the specific details in the premise.",C,entailment
+2222976136.jpg#0r1e|2|insertion,2222976136.jpg#0r1e,2,insertion,2222976136.jpg#0r1e:insertion,entailment,neutral,contradiction,entailment,A tall man wearing a blue hat and a blue shirt selling bananas from his wheel cart on the street.,A vendor selling bananas.,"Premise: A tall man wearing a blue hat and a blue shirt selling bananas from his wheel cart on the street.
+Hypothesis: A vendor selling bananas.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a tall man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The hypothesis is a general statement that is confirmed by the specific details in the premise.
+
+Label: C",48,eos,5,5.100930591000065,ok,"The premise describes a tall man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The hypothesis is a general statement that is confirmed by the specific details in the premise.",C,entailment
+2222976136.jpg#0r1e|2|deletion,2222976136.jpg#0r1e,2,deletion,2222976136.jpg#0r1e:deletion,entailment,neutral,contradiction,entailment,A man wearing a blue hat and a shirt selling bananas from his wheel cart on the street.,A vendor selling bananas.,"Premise: A man wearing a blue hat and a shirt selling bananas from his wheel cart on the street.
+Hypothesis: A vendor selling bananas.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The hypothesis is a general statement that is confirmed by the specific details in the premise.
+
+Label: C",47,eos,5,5.100930591000065,ok,"The premise describes a man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The hypothesis is a general statement that is confirmed by the specific details in the premise.",C,entailment
+2222976136.jpg#0r1e|3|baseline,2222976136.jpg#0r1e,3,baseline,,entailment,contradiction,entailment,neutral,A man wearing a blue hat and a blue shirt selling bananas from his wheel cart on the street.,A vendor selling bananas.,"Premise: A man wearing a blue hat and a blue shirt selling bananas from his wheel cart on the street.
+Hypothesis: A vendor selling bananas.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The hypothesis is a general statement that is confirmed by the specific details in the premise.
+
+Label: B",47,eos,5,5.100930591000065,ok,"The premise describes a man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The hypothesis is a general statement that is confirmed by the specific details in the premise.",B,entailment
+2222976136.jpg#0r1e|3|insertion,2222976136.jpg#0r1e,3,insertion,2222976136.jpg#0r1e:insertion,entailment,contradiction,entailment,neutral,A tall man wearing a blue hat and a blue shirt selling bananas from his wheel cart on the street.,A vendor selling bananas.,"Premise: A tall man wearing a blue hat and a blue shirt selling bananas from his wheel cart on the street.
+Hypothesis: A vendor selling bananas.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a tall man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The hypothesis is a general statement that is confirmed by the specific details in the premise.
+
+Label: B",48,eos,5,5.100930591000065,ok,"The premise describes a tall man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The hypothesis is a general statement that is confirmed by the specific details in the premise.",B,entailment
+2222976136.jpg#0r1e|3|deletion,2222976136.jpg#0r1e,3,deletion,2222976136.jpg#0r1e:deletion,entailment,contradiction,entailment,neutral,A man wearing a blue hat and a shirt selling bananas from his wheel cart on the street.,A vendor selling bananas.,"Premise: A man wearing a blue hat and a shirt selling bananas from his wheel cart on the street.
+Hypothesis: A vendor selling bananas.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The hypothesis is a general statement that is confirmed by the specific details in the premise.
+
+Label: B",47,eos,5,5.100930591000065,ok,"The premise describes a man selling bananas from a wheel cart, which directly supports the hypothesis that there is a vendor selling bananas. The hypothesis is a general statement that is confirmed by the specific details in the premise.",B,entailment
+6286405785.jpg#0r1n|1|baseline,6286405785.jpg#0r1n,1,baseline,,neutral,entailment,neutral,contradiction,"A football player in a blue 'Rams' jersey runs with a football on a field, as another player in a white jersey falls in an attempt to tackle him.",The football players are having fun,"Premise: A football player in a blue 'Rams' jersey runs with a football on a field, as another player in a white jersey falls in an attempt to tackle him.
+Hypothesis: The football players are having fun
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a football play with a tackle attempt but does not provide any information about the players' emotions or whether they are having fun. Therefore, the hypothesis is not supported or contradicted by the premise.
+
+Label: B",47,eos,5,5.100930591000065,ok,"The premise describes a football play with a tackle attempt but does not provide any information about the players' emotions or whether they are having fun. Therefore, the hypothesis is not supported or contradicted by the premise.",B,neutral
+6286405785.jpg#0r1n|1|insertion,6286405785.jpg#0r1n,1,insertion,6286405785.jpg#0r1n:insertion,neutral,entailment,neutral,contradiction,"A football player in a blue 'Rams' jersey runs with a football on a field, as another young player in a white jersey falls in an attempt to tackle him.",The football players are having fun,"Premise: A football player in a blue 'Rams' jersey runs with a football on a field, as another young player in a white jersey falls in an attempt to tackle him.
+Hypothesis: The football players are having fun
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a football play with a tackle, but it does not provide any information about the players' emotions or whether they are having fun. Therefore, the hypothesis is not supported or contradicted by the premise.
+
+Label: B",48,eos,5,5.100930591000065,ok,"The premise describes a football play with a tackle, but it does not provide any information about the players' emotions or whether they are having fun. Therefore, the hypothesis is not supported or contradicted by the premise.",B,neutral
+6286405785.jpg#0r1n|2|baseline,6286405785.jpg#0r1n,2,baseline,,neutral,neutral,contradiction,entailment,"A football player in a blue 'Rams' jersey runs with a football on a field, as another player in a white jersey falls in an attempt to tackle him.",The football players are having fun,"Premise: A football player in a blue 'Rams' jersey runs with a football on a field, as another player in a white jersey falls in an attempt to tackle him.
+Hypothesis: The football players are having fun
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a football play but does not provide any information about the players' emotions or whether they are having fun. Therefore, the hypothesis cannot be confirmed or denied based on the given information.
+
+Label: A",44,eos,5,5.100930591000065,ok,"The premise describes a football play but does not provide any information about the players' emotions or whether they are having fun. Therefore, the hypothesis cannot be confirmed or denied based on the given information.",A,neutral
+6286405785.jpg#0r1n|2|insertion,6286405785.jpg#0r1n,2,insertion,6286405785.jpg#0r1n:insertion,neutral,neutral,contradiction,entailment,"A football player in a blue 'Rams' jersey runs with a football on a field, as another young player in a white jersey falls in an attempt to tackle him.",The football players are having fun,"Premise: A football player in a blue 'Rams' jersey runs with a football on a field, as another young player in a white jersey falls in an attempt to tackle him.
+Hypothesis: The football players are having fun
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a football play with a tackle, but it does not provide any information about the players' emotions or whether they are having fun. Therefore, the hypothesis cannot be confirmed or denied based on the given information.
+
+Label: A",49,eos,6,6.248135881000053,ok,"The premise describes a football play with a tackle, but it does not provide any information about the players' emotions or whether they are having fun. Therefore, the hypothesis cannot be confirmed or denied based on the given information.",A,neutral
+6286405785.jpg#0r1n|3|baseline,6286405785.jpg#0r1n,3,baseline,,neutral,contradiction,entailment,neutral,"A football player in a blue 'Rams' jersey runs with a football on a field, as another player in a white jersey falls in an attempt to tackle him.",The football players are having fun,"Premise: A football player in a blue 'Rams' jersey runs with a football on a field, as another player in a white jersey falls in an attempt to tackle him.
+Hypothesis: The football players are having fun
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a football play with a tackle attempt but provides no information about the players' emotions or whether they are having fun. Therefore, the hypothesis cannot be confirmed or denied based on the given information.
+
+Label: C",46,eos,6,6.248135881000053,ok,"The premise describes a football play with a tackle attempt but provides no information about the players' emotions or whether they are having fun. Therefore, the hypothesis cannot be confirmed or denied based on the given information.",C,neutral
+6286405785.jpg#0r1n|3|insertion,6286405785.jpg#0r1n,3,insertion,6286405785.jpg#0r1n:insertion,neutral,contradiction,entailment,neutral,"A football player in a blue 'Rams' jersey runs with a football on a field, as another young player in a white jersey falls in an attempt to tackle him.",The football players are having fun,"Premise: A football player in a blue 'Rams' jersey runs with a football on a field, as another young player in a white jersey falls in an attempt to tackle him.
+Hypothesis: The football players are having fun
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a football play with a tackle, but it does not provide any information about the players' emotions or whether they are having fun. Therefore, the hypothesis cannot be confirmed or denied based on the given information.
+
+Label: C",49,eos,6,6.248135881000053,ok,"The premise describes a football play with a tackle, but it does not provide any information about the players' emotions or whether they are having fun. Therefore, the hypothesis cannot be confirmed or denied based on the given information.",C,neutral
+6704385305.jpg#0r1c|1|baseline,6704385305.jpg#0r1c,1,baseline,,contradiction,entailment,neutral,contradiction,An athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.,Olympic hopefuls perform their swim routines.,"Premise: An athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.
+Hypothesis: Olympic hopefuls perform their swim routines.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise discusses an athlete on the Slough Jets hockey team skating with a hockey stick, which is unrelated to Olympic hopefuls performing swim routines. There is no logical connection between the two statements that would make one entail the other or contradict it.
+
+Label: B",54,eos,6,6.248135881000053,ok,"The premise discusses an athlete on the Slough Jets hockey team skating with a hockey stick, which is unrelated to Olympic hopefuls performing swim routines. There is no logical connection between the two statements that would make one entail the other or contradict it.",B,neutral
+6704385305.jpg#0r1c|1|insertion,6704385305.jpg#0r1c,1,insertion,6704385305.jpg#0r1c:insertion,contradiction,entailment,neutral,contradiction,An anxious athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.,Olympic hopefuls perform their swim routines.,"Premise: An anxious athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.
+Hypothesis: Olympic hopefuls perform their swim routines.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes an athlete on the Slough Jets hockey team skating with a hockey stick, which is unrelated to Olympic swimmers performing their routines. There is no logical connection between the two statements that would make one entail the other or contradict it.
+
+Label: B",54,eos,6,6.248135881000053,ok,"The premise describes an athlete on the Slough Jets hockey team skating with a hockey stick, which is unrelated to Olympic swimmers performing their routines. There is no logical connection between the two statements that would make one entail the other or contradict it.",B,neutral
+6704385305.jpg#0r1c|1|deletion,6704385305.jpg#0r1c,1,deletion,6704385305.jpg#0r1c:deletion,contradiction,entailment,neutral,contradiction,An athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.,Olympic hopefuls perform their routines.,"Premise: An athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.
+Hypothesis: Olympic hopefuls perform their routines.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes an athlete on the Slough Jets hockey team skating with a hockey stick, which is unrelated to Olympic hopefuls performing routines. There is no logical connection between the two statements that would make the hypothesis entailed or contradicted by the premise.
+
+Label: B",56,eos,6,6.248135881000053,ok,"The premise describes an athlete on the Slough Jets hockey team skating with a hockey stick, which is unrelated to Olympic hopefuls performing routines. There is no logical connection between the two statements that would make the hypothesis entailed or contradicted by the premise.",B,neutral
+6704385305.jpg#0r1c|2|baseline,6704385305.jpg#0r1c,2,baseline,,contradiction,neutral,contradiction,entailment,An athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.,Olympic hopefuls perform their swim routines.,"Premise: An athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.
+Hypothesis: Olympic hopefuls perform their swim routines.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise discusses an athlete on the Slough Jets hockey team skating with a hockey stick, which is unrelated to Olympic hopefuls performing swim routines. There is no logical connection between the two statements that would make one entail the other or contradict it.
+
+Label: A",54,eos,6,6.248135881000053,ok,"The premise discusses an athlete on the Slough Jets hockey team skating with a hockey stick, which is unrelated to Olympic hopefuls performing swim routines. There is no logical connection between the two statements that would make one entail the other or contradict it.",A,neutral
+6704385305.jpg#0r1c|2|insertion,6704385305.jpg#0r1c,2,insertion,6704385305.jpg#0r1c:insertion,contradiction,neutral,contradiction,entailment,An anxious athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.,Olympic hopefuls perform their swim routines.,"Premise: An anxious athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.
+Hypothesis: Olympic hopefuls perform their swim routines.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes an athlete on the Slough Jets hockey team, while the hypothesis refers to Olympic hopefuls performing swim routines. There is no direct connection between hockey and swimming, and the premise does not provide any information that supports or contradicts the hypothesis about swimmers.  
+Label: A",60,eos,6,6.248135881000053,ok,"The premise describes an athlete on the Slough Jets hockey team, while the hypothesis refers to Olympic hopefuls performing swim routines. There is no direct connection between hockey and swimming, and the premise does not provide any information that supports or contradicts the hypothesis about swimmers.",A,neutral
+6704385305.jpg#0r1c|2|deletion,6704385305.jpg#0r1c,2,deletion,6704385305.jpg#0r1c:deletion,contradiction,neutral,contradiction,entailment,An athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.,Olympic hopefuls perform their routines.,"Premise: An athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.
+Hypothesis: Olympic hopefuls perform their routines.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes an athlete on the Slough Jets hockey team skating with a hockey stick, which is unrelated to Olympic hopefuls performing routines. There is no logical connection between the two statements that would make the hypothesis entailed or contradicted by the premise.
+
+Label: A",56,eos,7,5.832703695999953,ok,"The premise describes an athlete on the Slough Jets hockey team skating with a hockey stick, which is unrelated to Olympic hopefuls performing routines. There is no logical connection between the two statements that would make the hypothesis entailed or contradicted by the premise.",A,neutral
+6704385305.jpg#0r1c|3|baseline,6704385305.jpg#0r1c,3,baseline,,contradiction,contradiction,entailment,neutral,An athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.,Olympic hopefuls perform their swim routines.,"Premise: An athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.
+Hypothesis: Olympic hopefuls perform their swim routines.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise discusses an athlete on the Slough Jets hockey team skating with a hockey stick, which is unrelated to Olympic hopefuls performing swim routines. There is no logical connection or contradiction between the two statements.
+
+Label: C",46,eos,7,5.832703695999953,ok,"The premise discusses an athlete on the Slough Jets hockey team skating with a hockey stick, which is unrelated to Olympic hopefuls performing swim routines. There is no logical connection or contradiction between the two statements.",C,neutral
+6704385305.jpg#0r1c|3|insertion,6704385305.jpg#0r1c,3,insertion,6704385305.jpg#0r1c:insertion,contradiction,contradiction,entailment,neutral,An anxious athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.,Olympic hopefuls perform their swim routines.,"Premise: An anxious athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.
+Hypothesis: Olympic hopefuls perform their swim routines.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes an athlete on the Slough Jets hockey team skating with a hockey stick, which is unrelated to Olympic swimmers performing swim routines. There is no logical connection or contradiction between the two statements.
+
+Label: C",46,eos,7,5.832703695999953,ok,"The premise describes an athlete on the Slough Jets hockey team skating with a hockey stick, which is unrelated to Olympic swimmers performing swim routines. There is no logical connection or contradiction between the two statements.",C,neutral
+6704385305.jpg#0r1c|3|deletion,6704385305.jpg#0r1c,3,deletion,6704385305.jpg#0r1c:deletion,contradiction,contradiction,entailment,neutral,An athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.,Olympic hopefuls perform their routines.,"Premise: An athlete on the Slough Jets hockey team is skating on an ice rink with a hockey stick equipped.
+Hypothesis: Olympic hopefuls perform their routines.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes an athlete on the Slough Jets hockey team skating with a hockey stick, which is unrelated to Olympic hopefuls performing routines. There is no logical connection between the two statements that would make one necessarily true or false based on the other.
+
+Label: C",55,eos,7,5.832703695999953,ok,"The premise describes an athlete on the Slough Jets hockey team skating with a hockey stick, which is unrelated to Olympic hopefuls performing routines. There is no logical connection between the two statements that would make one necessarily true or false based on the other.",C,neutral
+4939912673.jpg#0r1c|1|baseline,4939912673.jpg#0r1c,1,baseline,,contradiction,entailment,neutral,contradiction,"An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is playing with fire.",Two dogs play around with a yellow tennis ball.,"Premise: An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is playing with fire.
+Hypothesis: Two dogs play around with a yellow tennis ball.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes an entertainer in Toronto playing with fire, while the hypothesis talks about two dogs playing with a yellow tennis ball. There is no logical connection between the two statements, and the premise provides no information that supports or contradicts the hypothesis.
+
+Label: B",55,eos,7,5.832703695999953,ok,"The premise describes an entertainer in Toronto playing with fire, while the hypothesis talks about two dogs playing with a yellow tennis ball. There is no logical connection between the two statements, and the premise provides no information that supports or contradicts the hypothesis.",B,neutral
+4939912673.jpg#0r1c|1|insertion,4939912673.jpg#0r1c,1,insertion,4939912673.jpg#0r1c:insertion,contradiction,entailment,neutral,contradiction,"An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is reluctantly playing with fire.",Two dogs play around with a yellow tennis ball.,"Premise: An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is reluctantly playing with fire.
+Hypothesis: Two dogs play around with a yellow tennis ball.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes an entertainer in Toronto playing with fire, while the hypothesis involves two dogs playing with a yellow tennis ball. There is no logical connection between the two scenarios, and the premise provides no information that supports or contradicts the hypothesis.
+
+Label: B",54,eos,7,5.832703695999953,ok,"The premise describes an entertainer in Toronto playing with fire, while the hypothesis involves two dogs playing with a yellow tennis ball. There is no logical connection between the two scenarios, and the premise provides no information that supports or contradicts the hypothesis.",B,neutral
+4939912673.jpg#0r1c|1|deletion,4939912673.jpg#0r1c,1,deletion,4939912673.jpg#0r1c:deletion,contradiction,entailment,neutral,contradiction,"An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is playing with fire.",Two dogs play around with a tennis ball.,"Premise: An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is playing with fire.
+Hypothesis: Two dogs play around with a tennis ball.
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes an entertainer in Toronto playing with fire, while the hypothesis talks about two dogs playing with a tennis ball. There is no logical connection between the two statements, and the premise provides no information that supports or contradicts the hypothesis.
+
+Label: B",54,eos,7,5.832703695999953,ok,"The premise describes an entertainer in Toronto playing with fire, while the hypothesis talks about two dogs playing with a tennis ball. There is no logical connection between the two statements, and the premise provides no information that supports or contradicts the hypothesis.",B,neutral
+4939912673.jpg#0r1c|2|baseline,4939912673.jpg#0r1c,2,baseline,,contradiction,neutral,contradiction,entailment,"An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is playing with fire.",Two dogs play around with a yellow tennis ball.,"Premise: An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is playing with fire.
+Hypothesis: Two dogs play around with a yellow tennis ball.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes an entertainer in Toronto playing with fire, while the hypothesis talks about two dogs playing with a yellow tennis ball. There is no logical connection between the two statements, and the premise provides no information that supports or contradicts the hypothesis.
+
+Label: A",55,eos,7,5.832703695999953,ok,"The premise describes an entertainer in Toronto playing with fire, while the hypothesis talks about two dogs playing with a yellow tennis ball. There is no logical connection between the two statements, and the premise provides no information that supports or contradicts the hypothesis.",A,neutral
+4939912673.jpg#0r1c|2|insertion,4939912673.jpg#0r1c,2,insertion,4939912673.jpg#0r1c:insertion,contradiction,neutral,contradiction,entailment,"An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is reluctantly playing with fire.",Two dogs play around with a yellow tennis ball.,"Premise: An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is reluctantly playing with fire.
+Hypothesis: Two dogs play around with a yellow tennis ball.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes an entertainer in Toronto playing with fire, while the hypothesis involves two dogs playing with a yellow tennis ball. There is no logical connection between the two scenarios, and the premise provides no information that supports or contradicts the hypothesis.
+
+Label: A",54,eos,8,5.724524018000011,ok,"The premise describes an entertainer in Toronto playing with fire, while the hypothesis involves two dogs playing with a yellow tennis ball. There is no logical connection between the two scenarios, and the premise provides no information that supports or contradicts the hypothesis.",A,neutral
+4939912673.jpg#0r1c|2|deletion,4939912673.jpg#0r1c,2,deletion,4939912673.jpg#0r1c:deletion,contradiction,neutral,contradiction,entailment,"An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is playing with fire.",Two dogs play around with a tennis ball.,"Premise: An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is playing with fire.
+Hypothesis: Two dogs play around with a tennis ball.
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes an entertainer in Toronto playing with fire, while the hypothesis talks about two dogs playing with a tennis ball. There is no logical connection between the two statements, and the premise provides no information that supports or contradicts the hypothesis.
+
+Label: A",54,eos,8,5.724524018000011,ok,"The premise describes an entertainer in Toronto playing with fire, while the hypothesis talks about two dogs playing with a tennis ball. There is no logical connection between the two statements, and the premise provides no information that supports or contradicts the hypothesis.",A,neutral
+4939912673.jpg#0r1c|3|baseline,4939912673.jpg#0r1c,3,baseline,,contradiction,contradiction,entailment,neutral,"An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is playing with fire.",Two dogs play around with a yellow tennis ball.,"Premise: An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is playing with fire.
+Hypothesis: Two dogs play around with a yellow tennis ball.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes an entertainer in Toronto playing with fire, while the hypothesis talks about two dogs playing with a yellow tennis ball. There is no logical connection or contradiction between the two statements. The premise provides no information about dogs or a tennis ball.
+
+Label: C",55,eos,8,5.724524018000011,ok,"The premise describes an entertainer in Toronto playing with fire, while the hypothesis talks about two dogs playing with a yellow tennis ball. There is no logical connection or contradiction between the two statements. The premise provides no information about dogs or a tennis ball.",C,neutral
+4939912673.jpg#0r1c|3|insertion,4939912673.jpg#0r1c,3,insertion,4939912673.jpg#0r1c:insertion,contradiction,contradiction,entailment,neutral,"An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is reluctantly playing with fire.",Two dogs play around with a yellow tennis ball.,"Premise: An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is reluctantly playing with fire.
+Hypothesis: Two dogs play around with a yellow tennis ball.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes an entertainer in Toronto playing with fire, while the hypothesis talks about two dogs playing with a yellow tennis ball. There is no logical connection or contradiction between the two statements. The premise provides no information about dogs or a tennis ball.
+
+Label: C",55,eos,8,5.724524018000011,ok,"The premise describes an entertainer in Toronto playing with fire, while the hypothesis talks about two dogs playing with a yellow tennis ball. There is no logical connection or contradiction between the two statements. The premise provides no information about dogs or a tennis ball.",C,neutral
+4939912673.jpg#0r1c|3|deletion,4939912673.jpg#0r1c,3,deletion,4939912673.jpg#0r1c:deletion,contradiction,contradiction,entailment,neutral,"An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is playing with fire.",Two dogs play around with a tennis ball.,"Premise: An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is playing with fire.
+Hypothesis: Two dogs play around with a tennis ball.
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes an entertainer in Toronto playing with fire, while the hypothesis talks about two dogs playing with a tennis ball. There is no logical connection or contradiction between the two statements. The premise provides no information about dogs or a tennis ball.
+
+Label: C",54,eos,8,5.724524018000011,ok,"The premise describes an entertainer in Toronto playing with fire, while the hypothesis talks about two dogs playing with a tennis ball. There is no logical connection or contradiction between the two statements. The premise provides no information about dogs or a tennis ball.",C,neutral
+4825488431.jpg#2r1e|1|baseline,4825488431.jpg#2r1e,1,baseline,,entailment,entailment,neutral,contradiction,Group of people stand near a fence watching a plane fly over them,Group of people standing outside,"Premise: Group of people stand near a fence watching a plane fly over them
+Hypothesis: Group of people standing outside
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise states that a group of people is standing near a fence watching a plane fly over them, which implies they are outside. Therefore, the hypothesis is supported by the premise.
+
+Label: A",41,eos,8,5.724524018000011,ok,"The premise states that a group of people is standing near a fence watching a plane fly over them, which implies they are outside. Therefore, the hypothesis is supported by the premise.",A,entailment
+4825488431.jpg#2r1e|1|insertion,4825488431.jpg#2r1e,1,insertion,4825488431.jpg#2r1e:insertion,entailment,entailment,neutral,contradiction,Group of people quickly stand near a fence watching a plane fly over them,Group of people standing outside,"Premise: Group of people quickly stand near a fence watching a plane fly over them
+Hypothesis: Group of people standing outside
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a group of people standing near a fence while a plane flies over them, which clearly places them outside. Therefore, the hypothesis is supported by the premise.
+
+Label: A",39,eos,8,5.724524018000011,ok,"The premise describes a group of people standing near a fence while a plane flies over them, which clearly places them outside. Therefore, the hypothesis is supported by the premise.",A,entailment
+4825488431.jpg#2r1e|1|deletion,4825488431.jpg#2r1e,1,deletion,4825488431.jpg#2r1e:deletion,entailment,entailment,neutral,contradiction,Group of people stand,Group of people standing outside,"Premise: Group of people stand
+Hypothesis: Group of people standing outside
+
+A. entailment: The premise makes the hypothesis true.
+B. neutral: The premise leaves the hypothesis undecided.
+C. contradiction: The premise rules out the hypothesis.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise ""Group of people stand"" does not specify a location, so it does not confirm or deny that they are standing outside. Therefore, the hypothesis is not necessarily true or false based on the premise alone.
+
+Label: B",48,eos,8,5.724524018000011,ok,"The premise ""Group of people stand"" does not specify a location, so it does not confirm or deny that they are standing outside. Therefore, the hypothesis is not necessarily true or false based on the premise alone.",B,neutral
+4825488431.jpg#2r1e|2|baseline,4825488431.jpg#2r1e,2,baseline,,entailment,neutral,contradiction,entailment,Group of people stand near a fence watching a plane fly over them,Group of people standing outside,"Premise: Group of people stand near a fence watching a plane fly over them
+Hypothesis: Group of people standing outside
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise states that a group of people is standing near a fence watching a plane fly over them, which implies they are outside. This supports the hypothesis that they are standing outside.
+
+Label: C",41,eos,9,4.6914372400000275,ok,"The premise states that a group of people is standing near a fence watching a plane fly over them, which implies they are outside. This supports the hypothesis that they are standing outside.",C,entailment
+4825488431.jpg#2r1e|2|insertion,4825488431.jpg#2r1e,2,insertion,4825488431.jpg#2r1e:insertion,entailment,neutral,contradiction,entailment,Group of people quickly stand near a fence watching a plane fly over them,Group of people standing outside,"Premise: Group of people quickly stand near a fence watching a plane fly over them
+Hypothesis: Group of people standing outside
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a group of people standing near a fence while watching a plane fly over them, which implies they are outside. This supports the hypothesis that they are standing outside.
+
+Label: C",40,eos,9,4.6914372400000275,ok,"The premise describes a group of people standing near a fence while watching a plane fly over them, which implies they are outside. This supports the hypothesis that they are standing outside.",C,entailment
+4825488431.jpg#2r1e|2|deletion,4825488431.jpg#2r1e,2,deletion,4825488431.jpg#2r1e:deletion,entailment,neutral,contradiction,entailment,Group of people stand,Group of people standing outside,"Premise: Group of people stand
+Hypothesis: Group of people standing outside
+
+A. neutral: The premise leaves the hypothesis undecided.
+B. contradiction: The premise rules out the hypothesis.
+C. entailment: The premise makes the hypothesis true.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise ""Group of people stand"" does not specify a location, so it does not confirm or deny that they are standing outside. Therefore, the hypothesis is not necessarily true or false based on the premise alone.
+
+Label: A",48,eos,9,4.6914372400000275,ok,"The premise ""Group of people stand"" does not specify a location, so it does not confirm or deny that they are standing outside. Therefore, the hypothesis is not necessarily true or false based on the premise alone.",A,neutral
+4825488431.jpg#2r1e|3|baseline,4825488431.jpg#2r1e,3,baseline,,entailment,contradiction,entailment,neutral,Group of people stand near a fence watching a plane fly over them,Group of people standing outside,"Premise: Group of people stand near a fence watching a plane fly over them
+Hypothesis: Group of people standing outside
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise states that a group of people is standing near a fence watching a plane fly over them, which implies they are outside. Therefore, the hypothesis is supported by the premise.
+
+Label: B",41,eos,9,4.6914372400000275,ok,"The premise states that a group of people is standing near a fence watching a plane fly over them, which implies they are outside. Therefore, the hypothesis is supported by the premise.",B,entailment
+4825488431.jpg#2r1e|3|insertion,4825488431.jpg#2r1e,3,insertion,4825488431.jpg#2r1e:insertion,entailment,contradiction,entailment,neutral,Group of people quickly stand near a fence watching a plane fly over them,Group of people standing outside,"Premise: Group of people quickly stand near a fence watching a plane fly over them
+Hypothesis: Group of people standing outside
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise describes a group of people standing near a fence while watching a plane fly over them, which clearly indicates they are outside. This directly supports the hypothesis that they are standing outside.
+
+Label: B",42,eos,9,4.6914372400000275,ok,"The premise describes a group of people standing near a fence while watching a plane fly over them, which clearly indicates they are outside. This directly supports the hypothesis that they are standing outside.",B,entailment
+4825488431.jpg#2r1e|3|deletion,4825488431.jpg#2r1e,3,deletion,4825488431.jpg#2r1e:deletion,entailment,contradiction,entailment,neutral,Group of people stand,Group of people standing outside,"Premise: Group of people stand
+Hypothesis: Group of people standing outside
+
+A. contradiction: The premise rules out the hypothesis.
+B. entailment: The premise makes the hypothesis true.
+C. neutral: The premise leaves the hypothesis undecided.
+
+Use the premise to judge the hypothesis. Explain your decision in one or two sentences. Then give one choice letter on the last line. Use this format:
+Explanation: <explanation>
+Label: <A, B, or C>","Explanation: The premise ""Group of people stand"" does not specify a location, so it does not confirm or deny that they are standing outside. Therefore, the hypothesis is not necessarily true or false based on the premise alone.
+
+Label: C",48,eos,9,4.6914372400000275,ok,"The premise ""Group of people stand"" does not specify a location, so it does not confirm or deny that they are standing outside. Therefore, the hypothesis is not necessarily true or false based on the premise alone.",C,neutral

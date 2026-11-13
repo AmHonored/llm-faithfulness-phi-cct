@@ -17,6 +17,14 @@ Import `esnli_phi_cct.ipynb` into Kaggle, enable internet, leave the accelerator
 
 The revised rules proposed both edits for 640 of the 1,000 examples. The audit records the 20 planned reviews and a follow-up check for incomplete sentences after deletion. It flags 15 proposals to exclude before inference, leaving 632 examples with two eligible edits, 287 with one, and 81 with zero. The audit identifies which decisions were drafted with AI assistance.
 
+## Run the validation check
+
+Import the notebook into Kaggle, select **GPU T4 x2**, turn **Internet** on, and choose **Run All**. The notebook runs 78 prompts from 10 validation examples across the three answer orders. It uses FP16 weights without quantization, greedy decoding, and Qwen's chat template with thinking disabled.
+
+The results are in `results/smoke/greedy/`. `responses.csv` contains the raw responses and parsed labels. `summary.json` records the model revision, hardware, response statuses, and estimated runtime. Keep `checkpoint.sqlite3` to resume with the same inputs and settings.
+
+The validation run parsed all 78 responses and reused the first 8 after reopening its checkpoint. Qwen answered 24 of 30 baseline prompts correctly across the three answer orders. Generation took 63 seconds, which projects to about 1 hour 43 minutes for the 7,653 planned test prompts after audit exclusions, plus setup time. These timings came from Kaggle T4 x2.
+
 ## What we'll compare
 
 | Check | What we’ll look at |
