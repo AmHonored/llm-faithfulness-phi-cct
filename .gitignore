@@ -1,3 +1,4 @@
+/.codex/
 /data/.cache/
 /.ipynb_checkpoints/
 /results/**/checkpoint.sqlite3*
